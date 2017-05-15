@@ -35,6 +35,7 @@
 		498D90E71EC8FA6700E5A2BB /* slotGlowGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 498D90CB1EC8FA6700E5A2BB /* slotGlowGood.png */; };
 		498D90E81EC8FA6700E5A2BB /* slotGlowGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 498D90CC1EC8FA6700E5A2BB /* slotGlowGood@2x.png */; };
 		498D90E91EC8FA6700E5A2BB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 498D90CD1EC8FA6700E5A2BB /* spark.png */; };
+		498D90EB1EC952D700E5A2BB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498D90EA1EC952D700E5A2BB /* Helper.swift */; };
 		49F0FB3D1EC7935D00823D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0FB3C1EC7935D00823D4A /* AppDelegate.swift */; };
 		49F0FB3F1EC7935D00823D4A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49F0FB3E1EC7935D00823D4A /* GameScene.sks */; };
 		49F0FB431EC7935D00823D4A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0FB421EC7935D00823D4A /* GameScene.swift */; };
@@ -73,6 +74,7 @@
 		498D90CB1EC8FA6700E5A2BB /* slotGlowGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotGlowGood.png; sourceTree = "<group>"; };
 		498D90CC1EC8FA6700E5A2BB /* slotGlowGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowGood@2x.png"; sourceTree = "<group>"; };
 		498D90CD1EC8FA6700E5A2BB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		498D90EA1EC952D700E5A2BB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		49F0FB391EC7935D00823D4A /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F0FB3C1EC7935D00823D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F0FB3E1EC7935D00823D4A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				49F0FB3E1EC7935D00823D4A /* GameScene.sks */,
 				49F0FB421EC7935D00823D4A /* GameScene.swift */,
 				49F0FB441EC7935D00823D4A /* GameViewController.swift */,
+				498D90EA1EC952D700E5A2BB /* Helper.swift */,
 				49F0FB461EC7935D00823D4A /* Main.storyboard */,
 				49F0FB491EC7935D00823D4A /* Assets.xcassets */,
 				49F0FB4B1EC7935D00823D4A /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				49F0FB431EC7935D00823D4A /* GameScene.swift in Sources */,
 				49F0FB451EC7935D00823D4A /* GameViewController.swift in Sources */,
 				49F0FB3D1EC7935D00823D4A /* AppDelegate.swift in Sources */,
+				498D90EB1EC952D700E5A2BB /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
